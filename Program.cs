@@ -7,6 +7,8 @@ using FluentValidation;
 
 namespace Tema2_PregatIT
 {
+    // iti recomand sa pui clasele in fisiere proprii fiindca altfel ajunge codul mult prea stufos intr-o singura clasa.
+    // in rest e ok
     internal class Program
     {
         static void Main(string[] args)
@@ -14,6 +16,7 @@ namespace Tema2_PregatIT
             bool debug = true;
 
           //  SmallApartment mySmallApartament = new SmallApartment(50);
+   // validarea o poti baga tot in clasa SmallApartment fie la setarea Area fie cu metoda separata
            // SmallApartmentValidator myValidator = new SmallApartmentValidator();
 
           // myValidator.Validate(mySmallApartment);
